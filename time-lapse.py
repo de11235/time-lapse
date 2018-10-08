@@ -1,7 +1,7 @@
 from time import sleep
 import picamera
 
-WAIT_TIME = 30
+WAIT_TIME = 5
 
 with picamera.PiCamera() as camera:
     camera.resolution = (1024, 768)
